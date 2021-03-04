@@ -1,0 +1,23 @@
+[submodule "lib/tpl/vyfuk"]
+	path = lib/tpl/vyfuk
+	url = https://github.com/fykosak/dokuwiki-template-vyfuk.git
+	branch = dev
+[submodule "lib/plugins/reporttool"]
+	path = lib/plugins/reporttool
+	url = git@github.com:ThatPerkel/dokuwiki-plugin-reporttool.git
+[submodule "lib/plugins/fkshelper"]
+	path = lib/plugins/fkshelper
+	url = git@github.com:fykosak/dokuwiki-plugin-fkshelper.git
+[submodule "lib/plugins/fksnewsfeed"]
+	path = lib/plugins/newsfeed
+	url = https://github.com/fykosak/dokuwiki-plugin-newsfeed.git
+[submodule "lib/plugins/social"]
+	path = lib/plugins/social
+	url = https://github.com/fykosak/dokuwiki-plugin-social.git
+	branch = dev-php-74
+[submodule "lib/plugins/sqlite"]
+	path = lib/plugins/sqlite
+	url = https://github.com/cosmocode/sqlite.git
+[submodule "lib/plugins/gallery"]
+	path = lib/plugins/gallery
+	url = https://github.com/splitbrain/dokuwiki-plugin-gallery.git
