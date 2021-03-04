@@ -9,7 +9,7 @@
 	path = lib/plugins/fkshelper
 	url = git@github.com:fykosak/dokuwiki-plugin-fkshelper.git
 [submodule "lib/plugins/fksnewsfeed"]
-	path = lib/plugins/newsfeed
+	path = lib/plugins/fksnewsfeed
 	url = https://github.com/fykosak/dokuwiki-plugin-newsfeed.git
 [submodule "lib/plugins/social"]
 	path = lib/plugins/social
