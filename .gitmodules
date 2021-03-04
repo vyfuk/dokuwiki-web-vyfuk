@@ -4,10 +4,10 @@
 	branch = dev
 [submodule "lib/plugins/reporttool"]
 	path = lib/plugins/reporttool
-	url = git@github.com:ThatPerkel/dokuwiki-plugin-reporttool.git
+	url = https://github.com/ThatPerkel/dokuwiki-plugin-reporttool.git
 [submodule "lib/plugins/fkshelper"]
 	path = lib/plugins/fkshelper
-	url = git@github.com:fykosak/dokuwiki-plugin-fkshelper.git
+	url = https://github.com/fykosak/dokuwiki-plugin-fkshelper.git
 [submodule "lib/plugins/fksnewsfeed"]
 	path = lib/plugins/fksnewsfeed
 	url = https://github.com/fykosak/dokuwiki-plugin-newsfeed.git
