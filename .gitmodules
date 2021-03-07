@@ -34,3 +34,24 @@
 	path = lib/plugins/gallery
 	url = https://github.com/fykosak/dokuwiki-plugin-gallery.git
 	branch = dev-vyfuk
+[submodule "lib/plugins/comment"]
+	path = lib/plugins/comment
+	url = https://github.com/dokufreaks/plugin-comment.git
+[submodule "lib/plugins/cookielaw"]
+	path = lib/plugins/cookielaw
+	url = https://github.com/fykosak/dokuwiki-plugin-cookielaw.git
+[submodule "lib/plugins/datatemplate"]
+	path = lib/plugins/datatemplate
+	url = https://github.com/Cyrille37/dokuwiki-plugin-datatemplate.git
+[submodule "lib/plugins/data"]
+	path = lib/plugins/data
+	url = https://github.com/splitbrain/dokuwiki-plugin-data.git
+[submodule "lib/plugins/fkstimer"]
+	path = lib/plugins/fkstimer
+	url = https://github.com/fykosak/dokuwiki-plugin-timer.git
+[submodule "lib/plugins/mathjax"]
+	path = lib/plugins/mathjax
+	url = https://github.com/liffiton/dokuwiki-plugin-mathjax.git
+[submodule "lib/plugins/tablewidth"]
+	path = lib/plugins/tablewidth
+	url = https://github.com/dwp-forge/tablewidth.git
