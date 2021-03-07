@@ -15,9 +15,6 @@
 [submodule "lib/plugins/sqlite"]
 	path = lib/plugins/sqlite
 	url = https://github.com/cosmocode/sqlite.git
-[submodule "lib/plugins/gallery"]
-	path = lib/plugins/gallery
-	url = https://github.com/splitbrain/dokuwiki-plugin-gallery.git
 [submodule "lib/plugins/fksdbauth"]
 	path = lib/plugins/fksdbauth
 	url = https://github.com/fykosak/dokuwiki-plugin-fksdbauth.git
@@ -33,3 +30,7 @@
 [submodule "lib/plugins/fksnewsfeed"]
 	path = lib/plugins/fksnewsfeed
 	url = https://github.com/fykosak/dokuwiki-plugin-newsfeed.git
+[submodule "lib/plugins/gallery"]
+	path = lib/plugins/gallery
+	url = https://github.com/fykosak/dokuwiki-plugin-gallery.git
+	branch = dev-vyfuk
