@@ -8,9 +8,6 @@
 [submodule "lib/plugins/fkshelper"]
 	path = lib/plugins/fkshelper
 	url = https://github.com/fykosak/dokuwiki-plugin-fkshelper.git
-[submodule "lib/plugins/fksnewsfeed"]
-	path = lib/plugins/fksnewsfeed
-	url = https://github.com/fykosak/dokuwiki-plugin-newsfeed.git
 [submodule "lib/plugins/social"]
 	path = lib/plugins/social
 	url = https://github.com/fykosak/dokuwiki-plugin-social.git
@@ -21,3 +18,18 @@
 [submodule "lib/plugins/gallery"]
 	path = lib/plugins/gallery
 	url = https://github.com/splitbrain/dokuwiki-plugin-gallery.git
+[submodule "lib/plugins/fksdbauth"]
+	path = lib/plugins/fksdbauth
+	url = https://github.com/fykosak/dokuwiki-plugin-fksdbauth.git
+[submodule "lib/plugins/fksdownloader"]
+	path = lib/plugins/fksdownloader
+	url = https://github.com/fykosak/dokuwiki-plugin-fksdownloader.git
+[submodule "lib/plugins/fkstaskrepo"]
+	path = lib/plugins/fkstaskrepo
+	url = https://github.com/fykosak/dokuwiki-plugin-fkstaskrepo.git
+[submodule "lib/plugins/fksdbexport"]
+	path = lib/plugins/fksdbexport
+	url = https://github.com/fykosak/dokuwiki-plugin-fksdbexport.git
+[submodule "lib/plugins/fksnewsfeed"]
+	path = lib/plugins/fksnewsfeed
+	url = https://github.com/fykosak/dokuwiki-plugin-newsfeed.git
