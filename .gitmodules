@@ -27,9 +27,6 @@
 [submodule "lib/plugins/fksdbexport"]
 	path = lib/plugins/fksdbexport
 	url = https://github.com/fykosak/dokuwiki-plugin-fksdbexport.git
-[submodule "lib/plugins/fksnewsfeed"]
-	path = lib/plugins/fksnewsfeed
-	url = https://github.com/fykosak/dokuwiki-plugin-newsfeed.git
 [submodule "lib/plugins/gallery"]
 	path = lib/plugins/gallery
 	url = https://github.com/fykosak/dokuwiki-plugin-gallery.git
@@ -55,3 +52,6 @@
 [submodule "lib/plugins/tablewidth"]
 	path = lib/plugins/tablewidth
 	url = https://github.com/dwp-forge/tablewidth.git
+[submodule "lib/plugins/newsfeed"]
+	path = lib/plugins/newsfeed
+	url = https://github.com/fykosak/dokuwiki-plugin-newsfeed.git
