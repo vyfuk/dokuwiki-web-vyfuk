@@ -8,10 +8,6 @@
 [submodule "lib/plugins/fkshelper"]
 	path = lib/plugins/fkshelper
 	url = https://github.com/fykosak/dokuwiki-plugin-fkshelper.git
-[submodule "lib/plugins/social"]
-	path = lib/plugins/social
-	url = https://github.com/fykosak/dokuwiki-plugin-social.git
-	branch = dev-php-74
 [submodule "lib/plugins/sqlite"]
 	path = lib/plugins/sqlite
 	url = https://github.com/cosmocode/sqlite.git
@@ -55,3 +51,7 @@
 [submodule "lib/plugins/newsfeed"]
 	path = lib/plugins/newsfeed
 	url = https://github.com/fykosak/dokuwiki-plugin-newsfeed.git
+[submodule "lib/plugins/social"]
+	path = lib/plugins/social
+	url = https://github.com/fykosak/dokuwiki-plugin-social.git
+	branch = dev-vyfuk
