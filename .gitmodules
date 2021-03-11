@@ -55,3 +55,6 @@
 	path = lib/plugins/social
 	url = https://github.com/fykosak/dokuwiki-plugin-social.git
 	branch = dev-vyfuk
+[submodule "lib/plugins/iframe"]
+	path = lib/plugins/iframe
+	url = https://github.com/Chris--S/dokuwiki-plugin-iframe.git
