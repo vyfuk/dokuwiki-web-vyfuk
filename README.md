@@ -15,14 +15,16 @@ Listen 8080
 ```
   5. Add following configuration to appache conf (Windows - `XAMPP\Apache\conf\extra\httpd-vhosts.conf`; Linux & MacOS - `/etc/apache/sites-enabled`):
  ```xml
-<Directory "/path/to/web/root"> # Add your path to web root here
+# Add your path below to web root (where the web files are stored)
+<Directory "/path/to/web/root">
 	Options FollowSymLinks
 	AllowOverride All
 	Require all granted
 </Directory>
 
 <VirtualHost *:8080> 
-    DocumentRoot "/path/to/web/root" # Add your path to web root here
+    # Here add the same path as above
+    DocumentRoot "/path/to/web/root"
     ServerName vyfuk.local
 </VirtualHost>
 ```
