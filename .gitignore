@@ -23,6 +23,8 @@
 .buildpath
 .project
 .settings/
+# VSCode
+.vscode/*
 # DokuWiki
 /data/attic/*
 /data/cache/*
