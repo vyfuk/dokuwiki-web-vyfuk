@@ -1,6 +1,6 @@
 [submodule "lib/tpl/vyfuk"]
 	path = lib/tpl/vyfuk
-	url = https://github.com/fykosak/dokuwiki-template-vyfuk.git
+	url = https://github.com/vyfuk/dokuwiki-template-vyfuk.git
 	branch = dev
 [submodule "lib/plugins/fkshelper"]
 	path = lib/plugins/fkshelper
