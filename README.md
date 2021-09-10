@@ -4,6 +4,7 @@ Repo of Výfuk's website
 ## Instalation
   1. Download and install Apache with PHP 7.4 (Windows - XAMPP; Linux & MacOS - apache2 package) and required packages:
 ```
+sudo add-apt-repository ppa:ondrej/php
 sudo apt install apache2 php7.4 php7.4-soap php7.4-sqlite3 php7.4-xdebug
 ```
   2. Clone this repo & run `git submodule update --init --recursive`.
