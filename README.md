@@ -2,9 +2,9 @@
 Repo of Výfuk's website
 
 ## Instalation
-  1. Download and install Apache with PHP 7.3 (Windows - XAMPP; Linux & MacOS - apache2 package) and required packages:
+  1. Download and install Apache with PHP 7.4 (Windows - XAMPP; Linux & MacOS - apache2 package) and required packages:
 ```
-sudo apt install apache2 php7.3 php7.3-soap php7.3-sqlite3 php7.3-xdebug
+sudo apt install apache2 php7.4 php7.4-soap php7.4-sqlite3 php7.4-xdebug
 ```
   2. Clone this repo & run `git submodule update --init --recursive`.
   3. Configure apache to listen to 8080 port (Windows - `XAMPP\Apache\conf\httpd.conf`; Linux & MacOS - `/etc/apache/httpd.conf`):
