@@ -19,17 +19,17 @@ Listen 8080
 ```
   5. Add following configuration to appache conf (Windows - `XAMPP\Apache\conf\extra\httpd-vhosts.conf`; Linux & MacOS - `/etc/apache/sites-enabled`):
  ```xml
-# Add your path below to web root (where the web files are stored)
-<Directory "/path/to/web/root">
-	Options FollowSymLinks
-	AllowOverride All
-	Require all granted
-</Directory>
+# Directory /var/www/vyfuk-web replace with the path where you cloned this repo
+<VirtualHost vyfuk.local>
+        DocumentRoot /var/www/vyfuk-web/
 
-<VirtualHost *:8080> 
-    # Here add the same path as above
-    DocumentRoot "/path/to/web/root"
-    ServerName vyfuk.local
+        <Directory /var/www/vyfuk-web/>
+            Options FollowSymLinks
+            AllowOverride All
+            Require all granted
+        </Directory>
+        LogLevel warn
+        ErrorLog /var/www/vyfuk-web/error.log
 </VirtualHost>
 ```
   6. Remove **.dist** extension from _acl.auth.php.dist_, _local.php.dist_ & _users.auth.php.dist_.
