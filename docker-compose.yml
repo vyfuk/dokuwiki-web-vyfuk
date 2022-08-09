@@ -4,7 +4,7 @@ services:
     container_name: vyfuk-php
     build:
       context: .
-      dockerfile: ./.docker/Dockerfile-php80
+      dockerfile: ./.docker/Dockerfile-php
     image: vyfuk-php
     volumes:
       - ./:/var/www/html

@@ -1,13 +1,10 @@
-FROM php:8.0-apache
+FROM php:7.4-apache
 
 # Install and enable xdebug
 RUN pecl install xdebug && docker-php-ext-enable xdebug
 
-# npm is required to init some fykos plugins
-RUN apt-get update && apt-get install -y npm
-
 # Following packages are required for some php addons
-RUN apt-get install -y zlib1g-dev libpng-dev libsqlite3-dev
+RUN apt-get update && apt-get install -y zlib1g-dev libpng-dev libsqlite3-dev
 
 # Install and enable extensions required by some plugins
 RUN docker-php-ext-install gd mysqli pdo_sqlite \
