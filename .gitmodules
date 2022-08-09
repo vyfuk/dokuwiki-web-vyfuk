@@ -47,7 +47,7 @@
 	url = https://github.com/dwp-forge/tablewidth.git
 [submodule "lib/plugins/newsfeed"]
 	path = lib/plugins/newsfeed
-	url = https://github.com/fykosak/dokuwiki-plugin-newsfeed.git
+	url = https://github.com/vyfuk/dokuwiki-plugin-newsfeed.git
 [submodule "lib/plugins/social"]
 	path = lib/plugins/social
 	url = https://github.com/fykosak/dokuwiki-plugin-social.git
