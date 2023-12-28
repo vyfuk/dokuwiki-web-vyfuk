@@ -7,5 +7,4 @@
 # Format:
 #
 # login:passwordhash:Real Name:email:groups,comma,separated
-org:$2y$10$eJoGVPFE/6NNX0Bp1s0HPOhk74.3iyNwehhpMj4dLBsgQunDo0f5q:Organizátor Pilný:vyfuk@vyfuk.mff.cuni.cz:admin,user
 

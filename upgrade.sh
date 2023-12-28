@@ -32,6 +32,7 @@ done
 git submodule update --init
 
 # Remove unittest folder
-rm -rf _tests
+rm -rf _test
 
 echo "Done! Don't forget to check for changes in conf folder"
+echo "Run git checkout $TAG -- file/a file/b to reset these files manually"
