@@ -31,4 +31,7 @@ done
 # Reinitalize all submodules
 git submodule update --init
 
+# Remove unittest folder
+rm -rf _tests
+
 echo "Done! Don't forget to check for changes in conf folder"
