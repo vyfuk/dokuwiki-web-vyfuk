@@ -1,0 +1,17 @@
+FROM php:7.4-apache
+
+# Add better php extension installer
+RUN curl -sSLf -o /usr/local/bin/install-php-extensions \
+        https://github.com/mlocati/docker-php-extension-installer/releases/download/2.1.72/install-php-extensions && \
+    chmod +x /usr/local/bin/install-php-extensions && \
+    # Install xdebug & extensions required by DokuWiki
+    EXT_INSTALL="gd mysqli pdo_mysql soap xdebug xsl" && EXT_ENABLE="$EXT_INSTALL" && \
+    install-php-extensions $EXT_INSTALL && docker-php-ext-enable $EXT_ENABLE && \
+    # Apply changes & restart apache service
+    a2enmod rewrite && service apache2 restart && \
+    # Fix ownership
+    usermod -u 1000 www-data && chown -R www-data:www-data /var/www/html && chmod -R 0770 /var/www/html
+
+# Add composer && apps needed to function properly
+COPY --from=composer/composer:latest-bin /composer /usr/bin/composer
+RUN apt-get update && apt-get install -y git

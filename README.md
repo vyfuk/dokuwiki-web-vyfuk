@@ -6,7 +6,7 @@ Repo of Výfuk's website
 ```
 127.0.0.1 vyfuk.local
 ```
-  2. Donwload and install Docker Engine - see docs [here](https://docs.docker.com/engine/install/).  
+  2. Download and install Docker Engine - see docs [here](https://docs.docker.com/engine/install/).  
   *Note: For Windows, you may want to use WSL2 backend for improved performance.*
   3. Clone this repo.
   4. On Linux, change file owner to apache user & group (`chown -R <yourusername>:33 .`, replace <yourusername> with your username) & change permissions to 775 (`chmod -R 775 .`).
@@ -14,3 +14,9 @@ Repo of Výfuk's website
   5. Init all submodules with `git submodule update --init --recursive`
   6. Run docker containers with command `docker-compose up` (while in the root folder of this repo).
   7. You should now be able to access the website via url 'http://vyfuk.local'.
+
+Pro-tip: Wanna push to https repositories without annoyingly rewrite all the URLs? Paste this to your .gitconfig:
+```
+[url "ssh://git@github.com/"]
+  insteadOf = https://github.com/
+```

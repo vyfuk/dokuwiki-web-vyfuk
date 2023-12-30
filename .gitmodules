@@ -30,15 +30,9 @@
 [submodule "lib/plugins/cookielaw"]
 	path = lib/plugins/cookielaw
 	url = https://github.com/fykosak/dokuwiki-plugin-cookielaw.git
-[submodule "lib/plugins/datatemplate"]
-	path = lib/plugins/datatemplate
-	url = https://github.com/Cyrille37/dokuwiki-plugin-datatemplate.git
 [submodule "lib/plugins/data"]
 	path = lib/plugins/data
 	url = https://github.com/splitbrain/dokuwiki-plugin-data.git
-[submodule "lib/plugins/fkstimer"]
-	path = lib/plugins/fkstimer
-	url = https://github.com/fykosak/dokuwiki-plugin-timer.git
 [submodule "lib/plugins/mathjax"]
 	path = lib/plugins/mathjax
 	url = https://github.com/liffiton/dokuwiki-plugin-mathjax.git
@@ -55,3 +49,12 @@
 [submodule "lib/plugins/iframe"]
 	path = lib/plugins/iframe
 	url = https://github.com/Chris--S/dokuwiki-plugin-iframe.git
+[submodule "lib/plugins/timer"]
+	path = lib/plugins/timer
+	url = https://github.com/fykosak/dokuwiki-plugin-timer.git
+[submodule "lib/plugins/datatemplate"]
+	path = lib/plugins/datatemplate
+	url = https://github.com/fykosak/dokuwiki-plugin-datatemplate.git
+[submodule "lib/plugins/htmlok"]
+	path = lib/plugins/htmlok
+	url = https://github.com/saggi-dw/dokuwiki-plugin-htmlok.git
